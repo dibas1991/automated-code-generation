@@ -11,7 +11,7 @@ This plugin generates boilerplate code or entire code structures based on user i
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/automated_code_gen.git
+    git clone https://github.com/dibas1991/automated-code-generation.git
     cd automated_code_gen
     ```
 
