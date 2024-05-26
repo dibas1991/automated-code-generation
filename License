@@ -1,0 +1,29 @@
+from setuptools import setup, find_packages
+
+setup(
+    name='automated_code_gen',
+    version='0.1.0',
+    packages=find_packages(),
+    include_package_data=True,
+    install_requires=[
+        'jinja2',
+        'kivy'
+    ],
+    entry_points={
+        'console_scripts': [
+            'generate-code=code_generator:main',
+        ],
+    },
+    author='DK',
+    author_email='dibas.business@gmail.com',
+    description='A plugin for automated code generation based on user inputs',
+    long_description=open('README.md').read(),
+    long_description_content_type='text/markdown',
+    url='https://github.com/yourusername/automated_code_gen',
+    classifiers=[
+        'Programming Language :: Python :: 3',
+        'License :: OSI Approved :: MIT License',
+        'Operating System :: OS Independent',
+    ],
+    python_requires='>=3.6',
+)
